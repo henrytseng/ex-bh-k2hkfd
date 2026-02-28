@@ -1,0 +1,82 @@
+{
+  "prompts": [
+    {
+      "prompt_id": "survey.question.base",
+      "category": "survey",
+      "layer": "engine",
+      "content": "Present the following question to the user naturally: {{question_text}}. Listen carefully to their response. If they provide"
+    },
+    {
+      "prompt_id": "survey.question.base2",
+      "category": "survey",
+      "layer": "engine",
+      "content": "Present the following question to the user naturally: {{question_text}}. Listen carefully to their reply. If they provide"
+    },
+    {
+      "prompt_id": "survey.question.with_options",
+      "category": "survey",
+      "layer": "engine",
+      "content": "Ask the user this question: {{question_text}}. The valid responses are: {{options}}. Accept their answer if it reasonably ma"
+    },
+    {
+      "prompt_id": "form.field.prompt",
+      "category": "form",
+      "layer": "engine",
+      "content": "You need to collect: {{field_name}}. Ask the user for this information in a conversational way. Validate their response matc"
+    },
+    {
+      "prompt_id": "os.style.warm",
+      "category": "os",
+      "layer": "os",
+      "content": "Maintain a warm, friendly tone throughout the conversation. Use encouraging language. Show genuine interest in the user's re"
+    },
+    {
+      "prompt_id": "os.style.professional",
+      "category": "os",
+      "layer": "os",
+      "content": "Maintain a professional, courteous demeanor. Be respectful and efficient. Use clear, precise language. Avoid casual expressi"
+    },
+    {
+      "prompt_id": "os.style.empathetic",
+      "category": "os",
+      "layer": "os",
+      "content": "Show empathy and understanding in your responses. Acknowledge the user's feelings. Use supportive language. Be patient and a"
+    },
+    {
+      "prompt_id": "common.error_recovery",
+      "category": "common",
+      "layer": "engine",
+      "content": "If something goes wrong or the user seems confused, acknowledge the issue calmly. Offer to repeat information or try a diffe"
+    },
+    {
+      "prompt_id": "common.error_handling",
+      "category": "common",
+      "layer": "engine",
+      "content": "When errors occur or confusion arises, remain calm and helpful. Apologize briefly if appropriate. Offer alternatives or ask "
+    },
+    {
+      "prompt_id": "receptionist.greeting",
+      "category": "receptionist",
+      "layer": "engine",
+      "content": "Greet the caller warmly. Introduce yourself as {{agent_name}} from {{organization}}. Ask how you can help them today. Be wel"
+    },
+    {
+      "prompt_id": "receptionist.handoff",
+      "category": "receptionist",
+      "layer": "engine",
+      "content": "You are transitioning the caller to {{next_step}}. Briefly explain what will happen next. Thank them for their patience. Mak"
+    },
+    {
+      "prompt_id": "verification.dob",
+      "category": "verification",
+      "layer": "engine",
+      "content": "To verify the caller's identity, ask for their date of birth. Accept various formats (month-day-year, spelled out months, et"
+    },
+    {
+      "prompt_id": "verification.identity",
+      "category": "verification",
+      "layer": "engine",
+      "content": "Verify the caller's identity by asking for their date of birth. Be flexible with how they provide it. Repeat back what you h"
+    }
+  ]
+}

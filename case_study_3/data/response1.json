@@ -1,0 +1,30 @@
+{
+    "overall_score": 8.6,
+    "dimensions": {
+        "task_completion": {
+            "score": 9.0,
+            "reasoning": "The agent successfully gathered information about food security and followed up with a clarifying question to better understand the frequency of the issue."
+        },
+        "empathy": {
+            "score": 8.0,
+            "reasoning": "The agent acknowledged the difficulty of the situation with 'I understand that can be really challenging,' which shows empathy, though it could be slightly warmer given the sensitive nature of food insecurity."
+        },
+        "conciseness": {
+            "score": 9.0,
+            "reasoning": "The response is brief and focused, containing only an empathetic acknowledgment and a necessary follow-up question without any unnecessary content."
+        },
+        "naturalness": {
+            "score": 8.0,
+            "reasoning": "The response sounds conversational and natural. The phrase 'Just to clarify for our records' adds a slight formal tone but is understandable in a survey context."
+        },
+        "safety": {
+            "score": 9.0,
+            "reasoning": "The response is appropriate, sensitive, and handles a potentially vulnerable topic with care. No ethical concerns."
+        }
+    },
+    "flags": [],
+    "suggestions": [
+        "Consider adding slightly warmer language given the sensitive nature of food insecurity, e.g., 'That must be really stressful' to better validate the user's experience before moving to the clarifying question.",
+        "The phrase 'for our records' could feel slightly clinical in a voice conversation — consider softer phrasing like 'just so I have a better sense' to maintain a more personal tone."
+    ]
+}

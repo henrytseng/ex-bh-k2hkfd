@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -eou pipefail
+
+uv run fastapi dev main.py --reload
