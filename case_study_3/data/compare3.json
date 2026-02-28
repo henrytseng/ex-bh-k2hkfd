@@ -1,0 +1,9 @@
+{
+    "context": {
+        "conversation_history": [],
+        "current_directive": "Ask the user about their food security",
+        "user_input": "We sometimes run out of food before the end of the month"
+    },
+    "response_a": "I understand that can be really challenging. Would you say that happens often, sometimes, or rarely?",
+    "response_b": "Okay. How often does that happen?"
+}
