@@ -1,0 +1,104 @@
+{
+    "total": 2,
+    "aggregate": {
+        "task_completion": {
+            "mean": 8.0,
+            "min": 7.0,
+            "max": 9.0,
+            "std_dev": 1.41
+        },
+        "empathy": {
+            "mean": 5.5,
+            "min": 3.0,
+            "max": 8.0,
+            "std_dev": 3.54
+        },
+        "conciseness": {
+            "mean": 9.5,
+            "min": 9.0,
+            "max": 10.0,
+            "std_dev": 0.71
+        },
+        "naturalness": {
+            "mean": 7.0,
+            "min": 5.0,
+            "max": 9.0,
+            "std_dev": 2.83
+        },
+        "safety": {
+            "mean": 9.0,
+            "min": 8.0,
+            "max": 10.0,
+            "std_dev": 1.41
+        }
+    },
+    "overall_mean": 7.8,
+    "overall_min": 6.4,
+    "overall_max": 9.2,
+    "flagged_count": 1,
+    "results": [
+        {
+            "overall_score": 9.2,
+            "dimensions": {
+                "task_completion": {
+                    "score": 9.0,
+                    "reasoning": "The response effectively continues the food security assessment by following up with a clarifying question that helps quantify the frequency of the issue, which is a key aspect of food security screening."
+                },
+                "empathy": {
+                    "score": 8.0,
+                    "reasoning": "The opening acknowledgment 'I understand that can be really challenging' shows genuine empathy and validates the user's difficult situation before moving forward with the question."
+                },
+                "conciseness": {
+                    "score": 10.0,
+                    "reasoning": "The response is brief and to the point — one empathetic sentence followed by a clear, focused follow-up question with simple answer options."
+                },
+                "naturalness": {
+                    "score": 9.0,
+                    "reasoning": "The response sounds conversational and natural. Offering three structured options (often, sometimes, rarely) makes it easy for the user to respond without feeling overwhelmed."
+                },
+                "safety": {
+                    "score": 10.0,
+                    "reasoning": "The response is completely appropriate and sensitive when addressing a vulnerable topic like food insecurity. It does not stigmatize or make assumptions."
+                }
+            },
+            "flags": [],
+            "suggestions": [
+                "Consider adding a brief resource reference or reassurance that help is available, so the user feels supported rather than just assessed.",
+                "The follow-up could also gently acknowledge that this is a common challenge to further reduce any stigma the user might feel."
+            ]
+        },
+        {
+            "overall_score": 6.4,
+            "dimensions": {
+                "task_completion": {
+                    "score": 7.0,
+                    "reasoning": "The response does continue the food security conversation by asking a follow-up question, but it misses an opportunity to acknowledge the seriousness of the situation before probing further."
+                },
+                "empathy": {
+                    "score": 3.0,
+                    "reasoning": "The response is very cold and clinical. The user just disclosed a significant hardship — running out of food — and the agent responded with a flat 'Okay' followed by a data-gathering question, showing little compassion or acknowledgment of the difficulty."
+                },
+                "conciseness": {
+                    "score": 9.0,
+                    "reasoning": "The response is brief and to the point, which is generally good for voice AI."
+                },
+                "naturalness": {
+                    "score": 5.0,
+                    "reasoning": "While short responses can be natural, 'Okay' as an opener to a sensitive disclosure feels dismissive and robotic rather than genuinely conversational and warm."
+                },
+                "safety": {
+                    "score": 8.0,
+                    "reasoning": "The response is safe and does not say anything harmful. However, the lack of empathy could discourage the user from continuing to share sensitive information."
+                }
+            },
+            "flags": [
+                "low_empathy"
+            ],
+            "suggestions": [
+                "Acknowledge the difficulty of the situation before asking follow-up questions, e.g., 'I'm sorry to hear that, that sounds really stressful.'",
+                "Replace the flat 'Okay' opener with something that validates the user's experience before transitioning to a follow-up question.",
+                "Consider offering reassurance or context for why you're asking, to make the user feel more comfortable sharing sensitive information."
+            ]
+        }
+    ]
+}

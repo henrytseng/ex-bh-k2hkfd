@@ -1,0 +1,30 @@
+{
+    "items": [
+        {
+            "context": {
+                "conversation_history": [],
+                "current_directive": "Ask the user about their food security",
+                "user_input": "We sometimes run out of food before the end of the month"
+            },
+            "response": "I understand that can be really challenging. Would you say that happens often, sometimes, or rarely?",
+            "metadata": {
+                "agent_id": "survey_agent",
+                "prompt_version": "v2.1",
+                "model": "gpt-4o-mini"
+            }
+        },
+        {
+            "context": {
+                "conversation_history": [],
+                "current_directive": "Ask the user about their food security",
+                "user_input": "We sometimes run out of food before the end of the month"
+            },
+            "response": "Okay. How often does that happen?",
+            "metadata": {
+                "agent_id": "survey_agent",
+                "prompt_version": "v1.0",
+                "model": "gpt-4o-mini"
+            }
+        }
+    ]
+}
